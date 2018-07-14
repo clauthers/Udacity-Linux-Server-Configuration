@@ -2,12 +2,13 @@
 This purpose for this project is run my Catalog Application in AWS Lightsail Ubuntu server that has been securely configured.
 
 # 1. IP Address and port
-The IP address is 52.200.75.126 and the port is 2200 for logging in.
+The IP address is 52.200.75.126 and the port is 2200 for logging in. Password for SSH key is: udacity
 
 # 2. Application URL
 My catalog app URL is: http://www.52.200.75.126.xip.io
 
 # 3. Summary of software installed and configuration changes made
+Installed software: apache2, libapache2-mod-wsgi-py3, python3, postgresql, python3-flask-sqlalchemy, python3-psycopg2  
 Update all currently installed packages.  
 Change the SSH port from 22 to 2200 andconfigure the Lightsail firewall to allow it.  
 Configure the Uncomplicated Firewall (UFW) to only allow incoming connections for SSH (port 2200), HTTP (port 80), and NTP (port 123).  
@@ -21,7 +22,7 @@ Create a new database user named catalog that has limited permissions.
 Install git.  
 Clone and setup your Item Catalog project from the Github repository.  
 Setup Item Catalog App in server so that it functions correctly when visiting server’s IP address in a browser.  
-Make sure that .git directory is not publicly accessible via a browser.  
+Make sure that .git directory is not publicly accessible via a browser.
 
 # 4. Third-party resources I made use of to complete this project.
 Udacity courses  
